@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Nursery</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background1.jpg'); /* ضع هنا رابط الخلفية */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        
+        header {
+            background-color: rgba(139, 195, 74, 0.8); /* خلفية شبه شفافة */
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        header p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #673AB7;
+            color: white;
+            text-decoration: none;
+            padding: 16px 32px;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+        
+        .cta-button:hover {
+            background-color: #512DA8;
+        }
+        
+        .featured-products {
+            padding: 80px 20px;
+            background-color: rgba(245, 245, 245, 0.9); /* خلفية شبه شفافة */
+        }
+        
+        .featured-products h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #673AB7;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 40px;
+        }
+        
+        .product {
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .product img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .product h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #8BC34A;
+        }
+        
+        .product p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .product button {
+            background-color: #673AB7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .cart {
+            text-align: right;
+            padding: 20px;
+            background-color: rgba(139, 195, 74, 0.8);
+        }
+
+        .cart a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Paradise Nursery</h1>
+        <p>Where Green Meets Serenity</p>
+        <a href="products.html" class="cta-button">Explore Products</a>
+    </header>
+
+    <div class="cart">
+        <a href="cart.html">shopping cart (0)</a>
+    </div>
+
+    <main>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="plan pink.jpg" alt="plan pink">
+                    <h3>Snake Plant</h3>
+                    <p>$15</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="plan red.jpg" alt="Spider Plant">
+                    <h3>Spider Plant</h3>
+                    <p>$12</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="plan yellow.jpg" alt="Peace Lily">
+                    <h3>Peace Lily</h3>
+                    <p>$18</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="flower.jpg" alt="Monstera Plant"><h3>Monstera Plant</h3>
+                    <p>$25</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="flowe2.jpg" alt="Pothos Plant">
+                    <h3>Pothos Plant</h3>
+                    <p>$15</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="flower3.jpg" alt="Fiddle Leaf Fig">
+                    <h3>Fiddle Leaf Fig</h3>
+                    <p>$35</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
